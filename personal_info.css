@@ -1,0 +1,12 @@
+body{
+  padding: 60px;
+  overflow-x: hidden;
+}
+
+
+
+h1, h2 {
+text-align: center;
+}
+
+nav{color:red;}
