@@ -30,10 +30,10 @@
 <main role="main" class="container">
 
 <div>
-    <h1> Tell us about you </h1>
+    <h1> Tell us about you so that we can find a match tailored to you</h1>
 </div>
 <div>
-    <h2> So that we can find a match tailored to you </h2>
+    <h2> About you </h2>
 </div>
 
   <form>
@@ -145,6 +145,124 @@ friendship
 
 
 
+
+</div></div>
+
+<div>
+    <h2> About your date </h2>
+</div>
+
+<div class="form-group">  <!-- Checkbox Group !-->
+<label class="control-label">I would like to go to... on my first date (tick all that applies)</label>
+
+<div class="checkbox">
+<label>
+<input type="checkbox" name="date_event" value="Fine dining">
+Fine dining
+</label>
+</div>
+
+<div class="checkbox">
+<label>
+<input type="checkbox" name="date_event" value="Cafe">
+Cafe
+</label>
+</div>
+
+<div class="checkbox">
+<label>
+<input type="checkbox" name="date_event" value="Bar">
+Bar
+</label>
+</div>
+
+<div class="checkbox">
+<label>
+<input type="checkbox" name="date_event" value="Casual resturant">
+Casual resturant
+</label>
+</div>
+
+
+<div class="checkbox">
+<label>
+<input type="checkbox" name="date_event" value="Outdoor">
+Outdoor
+</label>
+</div>
+
+<div class="checkbox">
+<label>
+<input type="checkbox" name="date_event" value="Music Festival">
+Music Festival
+</label>
+</div>
+
+<div class="checkbox">
+<label>
+<input type="checkbox" name="date_event" value="Museum/Art Gallery">
+Museum/Art Gallery
+</label>
+</div>
+
+<div class="checkbox">
+<label>
+<input type="checkbox" name="date_event" value="Other interesting events">
+Other interesting events
+</label>
+</div>
+</div>
+
+<div class="form-group">
+  <!-- <label for="exampleFormControlSelect1">Gender</label> -->
+  <select class="form-control" id="exampleFormControlSelect1">
+    <option select="" value="" default="" disabled="" selected="">My budget for the date is</option>
+    <option value="Less than £10">Less than £10</option>
+    <option value="£10-£20">£10-£20</option>
+    <option value="£10-£20">£10-£20</option>
+    <option value="£20-£50">£20-£50</option>
+    <option value="£50-£100">£50-£100</option>
+    <option value="£100-£200">£100-£200</option>
+    <option value="£200-£500">£200-£500</option>
+    <option value="greater than £500">greater than £500</option>
+</select>
+</div>
+
+<p></p>
+
+<div class="bootstrap-iso">
+  <div class="row">
+   <div class="col-md-6 col-sm-6 col-xs-12">
+
+    <!-- Form code begins -->
+
+      <div class="form-group"> <!-- Date input -->
+        <label class="control-label" for="date">I would like to go on a date on this day</label>
+        <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+      </div>
+
+
+     <!-- Form code ends -->
+
+
+  </div>
+ </div>
+</div>
+
+<script>
+    $(document).ready(function(){
+      var date_input=$('input[name="date"]'); //our date input has the name "date"
+      var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+      var options={
+        format: 'mm/dd/yyyy',
+        container: container,
+        todayHighlight: true,
+        autoclose: true,
+      };
+      date_input.datepicker(options);
+    })
+</script>
+
 <div class="form-group">
   <div class="form-group has-error">
       <!-- <label for="form_email">Email *</label> -->
@@ -162,6 +280,5 @@ friendship
 
 
 
-
-</div></div></form></main>
+</form></main>
 </body></html>
