@@ -1,9 +1,10 @@
 body{
   padding: 60px;
   overflow-x: hidden;
+ background-image: url("");
+ /* background-color: black;
+ color:white; */
 }
-
-
 
 h1, h2 {
 text-align: center;
@@ -15,12 +16,12 @@ text-align: center;
 }
 
 /* Style the links inside the navigation bar */
-.navbar a {
+.navbar-dark .navbar-nav .nav-link {
   float: left;
   color: gold;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  text-decoration: none;>
   font-size: 17px;
 }
 
