@@ -1,0 +1,42 @@
+body{
+  padding: 60px;
+  overflow-x: hidden;
+}
+
+
+
+h1, h2 {
+text-align: center;
+}
+
+.navbar{
+  background-color:#dbbc0d;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  float: left;
+  color: gold;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  /* background-color:gold; */
+  color: red;
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+#ex1Slider .slider-selection {
+	background: #BABABA;
+}
