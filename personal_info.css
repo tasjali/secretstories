@@ -1,7 +1,7 @@
 body{
-  padding: 60px;
+  padding: 80px;
   overflow-x: hidden;
- background-image: url("");
+
  /* background-color: black;
  color:white; */
 }
@@ -26,18 +26,9 @@ text-align: center;
 }
 
 /* Change the color of links on hover */
-.navbar a:hover {
+.navbar-dark .navbar-nav .nav-link a:hover {
   /* background-color:gold; */
   color: red;
 }
 
 /* Add a color to the active/current link */
-.navbar a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-
-#ex1Slider .slider-selection {
-	background: #BABABA;
-}
