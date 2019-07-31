@@ -1,0 +1,53 @@
+body {
+    color: rgb(49,58,69);
+    font-family: arial;
+  }
+/* div {
+    min-height: 100vh;
+    width: 100vw;
+} */
+/* h1, h2 {
+     text-align: center;
+
+} */
+h1 {
+     font-family: 'Dancing Script', cursive;
+     font-size: 5em;
+     text-align: center;
+     margin: 9vh 9vw;
+}
+h2 {
+     margin: 6vh 6vw;
+     font-size: 2.5em;
+}
+p {
+   font-size: 2em;
+   text-align: center;
+}
+img {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 115px;
+  vertical-align: right;
+}
+.hands {
+  max-height: 400px;
+}
+/* a {
+   color:rgb(0,0,0);
+} */
+
+.aboutstory {
+  font-family: 'EB Garamond', serif;
+  font-size: 1.3em;
+}
+/* specific to About Us page
+
+body {
+  color: rgb(0,0,0)
+  padding: 60px;
+  text-align: center;
+  font-size: 2.5em;
+  font-family: font-family: 'Dancing Script', cursive;
+}
