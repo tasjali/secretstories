@@ -1,43 +1,35 @@
 body{
-  padding: 60px;
+  padding: 80px;
   overflow-x: hidden;
- background-image: url("");
+background-color: Black;
+color: white;
  /* background-color: black;
  color:white; */
 }
 
 h1, h2 {
 text-align: center;
-}
+color:gold;
+font-family: 'Allura', cursive; }
 
-.navbar{
-  background-color:#dbbc0d;
-  overflow: hidden;
-}
 
 /* Style the links inside the navigation bar */
-.navbar-dark .navbar-nav .nav-link {
+.navbar-nav .nav-link {
   float: left;
   color: gold;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;>
   font-size: 17px;
+  border-color: gold;
 }
 
-/* Change the color of links on hover */
-.navbar a:hover {
-  /* background-color:gold; */
-  color: red;
+.navbar{
+  background-color:black;
+  overflow: hidden;
 }
+.btn{color:black;
+background-color: gold;
+border: 1px solid gold}
 
-/* Add a color to the active/current link */
-.navbar a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-
-#ex1Slider .slider-selection {
-	background: #BABABA;
-}
+.nav{background-color: black;}
